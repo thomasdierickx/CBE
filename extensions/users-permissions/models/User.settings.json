@@ -62,6 +62,10 @@
     "comments": {
       "via": "user",
       "collection": "comments"
+    },
+    "collections": {
+      "via": "user",
+      "collection": "collections"
     }
   }
 }

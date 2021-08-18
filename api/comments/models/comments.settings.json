@@ -16,8 +16,8 @@
       "type": "richtext"
     },
     "collections": {
-      "model": "collections",
-      "via": "comments"
+      "via": "comments",
+      "model": "collections"
     },
     "user": {
       "plugin": "users-permissions",

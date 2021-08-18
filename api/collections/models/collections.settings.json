@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "collections",
   "info": {
-    "name": "collections"
+    "name": "collections",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -20,16 +21,11 @@
     "year": {
       "type": "biginteger"
     },
-    "username": {
-      "type": "string"
-    },
     "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false,
@@ -38,6 +34,11 @@
     "comments": {
       "via": "collections",
       "collection": "comments"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "collections"
     }
   }
 }
