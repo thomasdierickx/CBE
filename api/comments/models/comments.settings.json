@@ -15,9 +15,6 @@
     "comment": {
       "type": "richtext"
     },
-    "date": {
-      "type": "date"
-    },
     "collections": {
       "model": "collections",
       "via": "comments"
