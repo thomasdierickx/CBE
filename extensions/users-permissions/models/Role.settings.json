@@ -40,7 +40,7 @@
       "plugin": "users-permissions"
     },
     "comments": {
-      "via": "users_permissions_role",
+      "via": "user",
       "collection": "comments"
     }
   }

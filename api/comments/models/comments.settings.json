@@ -22,9 +22,9 @@
       "model": "collections",
       "via": "comments"
     },
-    "users_permissions_role": {
+    "user": {
       "plugin": "users-permissions",
-      "model": "role",
+      "model": "user",
       "via": "comments"
     }
   }
