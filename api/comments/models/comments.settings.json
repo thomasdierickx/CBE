@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "username": {
-      "type": "string"
-    },
     "comment": {
       "type": "richtext"
     },
@@ -23,6 +20,11 @@
     },
     "collections": {
       "model": "collections",
+      "via": "comments"
+    },
+    "users_permissions_role": {
+      "plugin": "users-permissions",
+      "model": "role",
       "via": "comments"
     }
   }
