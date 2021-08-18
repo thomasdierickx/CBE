@@ -19,10 +19,11 @@
       "type": "richtext"
     },
     "date": {
-      "type": "datetime"
+      "type": "date"
     },
-    "collections_id": {
-      "type": "biginteger"
+    "collections": {
+      "model": "collections",
+      "via": "comments"
     }
   }
 }
