@@ -35,10 +35,8 @@
       "via": "collections",
       "collection": "comments"
     },
-    "user": {
-      "plugin": "users-permissions",
-      "model": "user",
-      "via": "collections"
+    "username": {
+      "type": "string"
     }
   }
 }
