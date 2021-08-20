@@ -23,6 +23,9 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "comments"
+    },
+    "username": {
+      "type": "string"
     }
   }
 }

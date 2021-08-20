@@ -21,22 +21,15 @@
     "year": {
       "type": "biginteger"
     },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "comments": {
       "via": "collections",
       "collection": "comments"
     },
     "username": {
       "type": "string"
+    },
+    "image": {
+      "type": "richtext"
     }
   }
 }
